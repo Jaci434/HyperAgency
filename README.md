@@ -22,9 +22,8 @@ To open the website:
 			pip install Django==2.2
 
 
-First page is menu, where you can choose to log in, sign in, check all the resumes or vacancies.
-If you log in you will be able to create your own vacancy or resume (depence if you are administrator or not).
-
-If you click on the add new news, you can add your own news.
+The first page is a menu, where you can choose to log in, sign in or check all the resumes or vacancies.
+	Log in: There is 2 type of users: agent and job seekers. Agents are superusers and can create resumes and vacancies. Job seekers are normal users and are created through the sign-in page. Those can create resumes, but no vacancies. After you finish creating new resumes, you can log out and it will back to the first page.
+	Sign in: For creating a new user (username and password).
 
 Jacinta Mihelcic, May 2021
